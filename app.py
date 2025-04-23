@@ -16,7 +16,7 @@ def welcome():
     return "Welcome you are accessing the REST API!"
 
 
-@app.route('/user-query', methods=['GET'])
+@app.route('/user-query', methods=['POST'])
 def retrieve_query():
     data = request.json
     if not data["query"]:
