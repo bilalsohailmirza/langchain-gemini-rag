@@ -1,0 +1,6 @@
+.ropeproject
+__pycache__
+.env
+lang-gemini-env
+.gitignore
+.git
